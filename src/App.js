@@ -3,6 +3,8 @@ import Projectgym from './Projectgym'
 
 import Register from './Register'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './Login';
+import Forgotpassword from './Forgotpassword';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Projectgym/>}></Route>
             <Route path='/Register'  element={<Register/>}></Route>
+            <Route path='/Login' element={<Login/>}></Route>
+            <Route path='/Forgot' element={<Forgotpassword/>}></Route>
           </Routes>
          </Router>
         </div>

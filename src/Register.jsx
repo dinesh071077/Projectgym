@@ -53,7 +53,7 @@ function Register() {
         else{
             localStorage.setItem('password',password)
             hasError = true
-            alert('Register successfully') 
+            alert('Register successfully ') 
             window.location.href = '/'
         }
       }
@@ -65,7 +65,7 @@ function Register() {
                 <form action=""   onSubmit={handleRegister} >
                     <h1 >REGISTER GYM MEMBER </h1>
                     <div className="input-box2">
-                        <input type="text" value={user} onChange={(e) => setUser(e.target.value)} placeholder='Username' />
+                        <input type="text" value={user} onChange={(e) => setUser(e.target.value)} placeholder='Username'  />
                         < FaRegUser className='user' />
                         <p className='error1'>{usererror}</p>
     
@@ -84,7 +84,7 @@ function Register() {
                     </div>
                      <div className="Remem">
                      <input className='check' type="checkbox" /> 
-                        <lable className='term'>Terms&conditiond</lable>
+                        <lable className='term'>Terms&condition</lable>
                         
                      </div>
                     
