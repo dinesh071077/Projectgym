@@ -7,6 +7,8 @@ import { MdOutlineEmail } from "react-icons/md";
 import  { useState } from 'react'
 import './Register.css'
 
+
+
 function Register() {
     const[user,setUser] = useState('')
      const[email,setEmail] = useState('')
@@ -14,6 +16,8 @@ function Register() {
       const[usererror,setuserError] = useState('')
       const[emailerror,setemailError] = useState('')
       const[passworderror,setpasswordError] = useState('')
+
+
 
 
       const handleRegister = (e) => {
@@ -53,8 +57,7 @@ function Register() {
             window.location.href = '/'
         }
       }
-
-
+ 
   return (
     <div className='body'>
      <div className='background-con2 '>

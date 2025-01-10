@@ -31,7 +31,7 @@ function Navbar() {
             <span className='nav-icon'></span>
         </label>
         <ul className='menu'>
-            <li><Link to='main'>HEADDER</Link></li>
+            <li><Link to='main'>HEADER</Link></li>
             <li><Link to='features'>FEATURES</Link></li>
             <li><Link to='presentaion'>OFFER</Link></li>
             <li><Link to='about'>ABOUT</Link></li>
